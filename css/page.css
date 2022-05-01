@@ -1,0 +1,22 @@
+.page {
+  display: grid;
+  grid-template-columns: 15.25rem 1fr;
+  grid-template-rows: 6rem 1fr;
+  grid-template-areas: "header header" "sidebar main";
+  block-size: 100vh;
+}
+
+.page .header {
+  grid-area: header;
+  block-size: 6rem;
+}
+
+.page .sidebar {
+  inline-size: 15.25rem;
+  grid-area: sidebar;
+}
+
+.page .calendar {
+  grid-area: main;
+  background-color: purple;
+}
