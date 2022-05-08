@@ -9,8 +9,7 @@
   appearance: none;
   background-image: url("../icons/Icon=chevron-down.svg");
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: center;
+  background-position: right .5rem center;
 }
 
 .select:focus {
