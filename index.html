@@ -15,7 +15,16 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="calendarStatus">
+      <div class="header-primary">
+        <div class="header-logo">
+          <button class="button is-compact">
+            <i class="icon-Iconhamburguer-button"></i>
+          </button>
+          <a href="/" aria-current="page" aria-label="Calendar" tabindex="-1">
+            <img src="./images/logo.png">
+          </a>
+        </div>
+        <div class="calendarStatus">
         <button class="button is-secondary">Hoy</button>
         <span class="calendarStatus-navigation">
           <a class="button is-compact" href="#" aria-label="Semana Anterior">
@@ -26,21 +35,17 @@
           </a>
         </span>
         <time class="calendarStatus-date" datetime="25-06-2022">25 de Junio</time>
+        </div>
       </div>
-      <select class="select" name="" id="">
-        <option value="" selected>Semana</option>
-        <option value="">Día</option>
-      </select>
-      <a href="#" class="button is-rounded is-shadowed">
-        <i class="icon-Iconplus"></i><span>button</span>
-      </a>
-      <a href="#" class="button is-compact">
-        <i class="icon-Iconplus"></i>
-      </a>
-      <button class="button">button</button>
-      <a href="#" class="button">button</a>
-      <a href="#" class="button is-primary">button</a>
-      <a href="#" class="button is-secondary">button</a>
+      <div class="header-secondary">
+        <select class="select" name="" id="">
+          <option value="" selected>Semana</option>
+          <option value="">Día</option>
+        </select>
+        <a href="#user">
+          <img src="./images/user.png" alt="">
+        </a>
+      </div>
     </header>
     <div class="sidebar"></div>
     <main class="calendar">
