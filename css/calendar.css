@@ -3,6 +3,7 @@
 @import 'calendar-day.css';
 @import 'timezone-cell.css';
 @import 'hour-cell.css';
+@import 'current-time.css';
 
 .calendar {
   color: var(--gray20);
@@ -10,7 +11,8 @@
   --minBlockSize: 4rem;
   --maxBlockSize: auto;
   --minInlineSize: 5rem;
-  --maxInlineSize: 10rem;
+  --maxInlineSize: 1fr;
+  position: relative;
 }
 
 .calendar-week {

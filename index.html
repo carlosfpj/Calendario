@@ -14,9 +14,37 @@
 </head>
 <body>
   <div class="page">
-    <header class="header"></header>
+    <header class="header">
+      <div class="calendarStatus">
+        <button class="button is-secondary">Hoy</button>
+        <span class="calendarStatus-navigation">
+          <a class="button is-compact" href="#" aria-label="Semana Anterior">
+            <i class="icon-Iconchevron-left" aria-hidden="true"></i>
+          </a>
+          <a class="button is-compact" href="#">
+            <i class="icon-Iconchevron-right" aria-hidden="true"></i>
+          </a>
+        </span>
+        <time class="calendarStatus-date" datetime="25-06-2022">25 de Junio</time>
+      </div>
+      <select class="select" name="" id="">
+        <option value="" selected>Semana</option>
+        <option value="">Día</option>
+      </select>
+      <a href="#" class="button is-rounded is-shadowed">
+        <i class="icon-Iconplus"></i><span>button</span>
+      </a>
+      <a href="#" class="button is-compact">
+        <i class="icon-Iconplus"></i>
+      </a>
+      <button class="button">button</button>
+      <a href="#" class="button">button</a>
+      <a href="#" class="button is-primary">button</a>
+      <a href="#" class="button is-secondary">button</a>
+    </header>
     <div class="sidebar"></div>
     <main class="calendar">
+      <div class="currentTime"></div>
       <div class="calendar-week">
         <div class="timezoneCell">GMT-5</div>
         <h2 class="calendarDay" aria-label="Domingo 6 de Junio">
