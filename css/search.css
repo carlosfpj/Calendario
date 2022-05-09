@@ -1,0 +1,23 @@
+.search {
+  position: relative;
+  align-items: center;
+  max-inline-size: 12.25rem;
+  margin-block: 1rem;
+}
+
+.search input{
+  background-color: var(--gray10);
+  border: none;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.search i {
+  position: absolute;
+  top: calc(50% - 0.5rem);
+  block-size: 1rem;
+  left: 0.75rem;
+}
+
+.search input:focus {
+  outline: none;
+}
