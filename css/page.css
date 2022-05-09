@@ -8,11 +8,9 @@
 
 .page .header {
   grid-area: header;
-  block-size: 6rem;
 }
 
 .page .sidebar {
-  inline-size: 15.25rem;
   grid-area: sidebar;
 }
 
