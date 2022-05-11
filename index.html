@@ -425,5 +425,64 @@
       </div>
     </main>
   </div>
+  <dialog class="modal">
+    <form class="createTask">
+      <div class="input is-outstanding">
+        <div class="input-body">
+          <input required name="title" type="text" placeholder="Añade un título">
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-Iconclock"></i>
+        <div class="input-body">
+          <input type="date" name="date" required>
+          <input type="time" name="time-start" required>
+          <input type="time" name="time-end" required>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-Iconusers"></i>
+        <div class="inputbody">
+          <input type="text" list="guests" name="guests" placeholder="agregar invitados" required>
+          <datalist id="guests">
+             <option value="Leonidas"></option>
+             <option value="Carlos"></option>
+             <option value="Miguel"></option>
+             <option value="Sandra"></option>
+             <option value="Cristopher"></option>
+          </datalist>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-Icongps"></i>
+        <div class="input-body">
+          <input name="location" type="text" placeholder="Agregar ubicación">
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-Icontext"></i>
+        <div class="input-body">
+          <input type="file" multiple>
+        </div>
+      </div>
+      <div class="input">
+        <i class="icon-Icontext"></i>
+        <div class="input-body">
+          <textarea placeholder="agregar descripción" name="details" id="" cols="20" rows="5"></textarea>
+        </div>
+      </div>
+    </form>
+    <div class="modal-actions">
+      <button class="button">
+        Cancelar
+      </button>
+      <button class="button is-primary">
+        Guardar
+      </button>
+    </div>
+  </dialog>
+  <script>
+    document.querySelector('.modal').showModal()
+  </script>
 </body>
 </html>
