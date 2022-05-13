@@ -9,7 +9,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index/index.css">
   <title>Google Calendario</title>
 </head>
 <body>
@@ -473,7 +473,7 @@
       </div>
     </form>
     <div class="modal-actions">
-      <button class="button">
+      <button id="close-modal" class="button">
         Cancelar
       </button>
       <button class="button is-primary">
@@ -481,8 +481,7 @@
       </button>
     </div>
   </dialog>
-  <script>
-    document.querySelector('.modal').showModal()
+  <script src="./js/app.js" type="module">
   </script>
 </body>
 </html>
