@@ -20,3 +20,9 @@
 .search input:focus {
   outline: none;
 }
+
+@media (prefers-color-scheme: dark) {
+  .search i {
+    color: var(--white);
+  }
+}
