@@ -2,6 +2,7 @@
   /* border-inline-start: 1px solid currentColor; */
   border-block-end: 1px solid currentColor;
   padding: .25rem;
+  /* box-sizing: border-box; */
 }
 
 /* .taskCell:nth-child(8n) {

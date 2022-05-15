@@ -16,6 +16,7 @@ function setCurrentTimePosition () {
   const cellInlineSize = calendarInlineSize / 7
 
   const calendarDayBlockSize = document.querySelector('.calendarDay').clientHeight
+  console.log(calendarDayBlockSize);
 
   calendarBlockSize = calendarBlockSize - calendarDayBlockSize
 
